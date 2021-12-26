@@ -1,0 +1,67 @@
+.general-contain{
+    position: relative;
+    .header{
+        position: absolute;
+        z-index: 99;
+        top: 50px;
+        width: 100%;
+        
+        .container{
+            .my-navbar{
+                
+                background-color: transparent !important;
+                .navbar-nav{
+                    width: 50% !important;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    li{
+                        a{
+                            color: white;
+                            &::after{
+                                content:"]";
+                                
+                                transform: translateX(-20px);
+                                opacity: 0;
+                                transition: .5s;
+
+                                
+
+
+
+                            }
+                            &::before{
+                                content:"[";
+                                
+                                transform: translateX(20px);
+                                opacity: 0;
+                                transition: .5s;
+
+                                
+                            }
+                            &:hover{
+                                &::after{
+                                    transform: translateX(20px) !important;
+                                    opacity: 1 !important;
+                                    margin-left: 15px !important;
+                                }
+                                &::before{
+                                    transform: translateX(-20px) !important;
+                                    opacity: 1 !important;
+                                    margin-right: 15px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                form{
+                    font-size: 31px;
+                    svg{
+                        font-style: 50px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

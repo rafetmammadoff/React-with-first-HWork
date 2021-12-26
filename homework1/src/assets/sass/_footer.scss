@@ -1,0 +1,86 @@
+.footer{
+    margin-top: 100px;
+    min-height: 342px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .first-blog{
+                position: relative;
+                .blog-tittle{
+                    h1{
+                        font-size: 100px;
+                        position: absolute;
+                        top: -91px;
+                        left: 0;
+                        color: white;
+                        opacity: .6;
+                        
+
+                
+                    }
+                    font-size: 30px;
+                    font-weight: normal;
+                }
+                .blog-content{
+                    display: flex;
+                    align-items: flex-start;
+                    .name{
+                        font-size: 18px;
+                    font-weight: bold;
+                    }
+                    .body{
+                        margin-left: 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .second-blog{
+                position: relative;
+                .blog-tittle{
+                    h1{
+                        font-size: 100px;
+                        position: absolute;
+                        top: -91px;
+                        left: 0;
+                        color: white;
+                        opacity: .6;
+                        
+
+                
+                    }
+                    font-size: 30px;
+                    font-weight: normal;
+                }
+                .blog-content{
+                    p{
+                        margin: 0;
+                        margin-bottom: 10px;
+                        font-size: 14px;
+                        top: -19px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+.footer-bottom{
+    height: 46px;
+    background-color: #263238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        .row{
+            .footer-text{
+                color: white;
+            }
+        }
+    }
+}
